@@ -10,6 +10,8 @@ function generatePass(
   const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   let allChars = lowerCase;
+
+  
   if (includeSpecType) allChars += specType;
   if (includeUpperCase) allChars += upperCase;
   if (includeintegType) allChars += integType;
